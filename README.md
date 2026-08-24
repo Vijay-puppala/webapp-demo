@@ -1,4 +1,4 @@
-# Playwright Booking Framework — Beginner to Advanced
+# Playwright Booking Framework
 
 A progressive Playwright + TypeScript automation framework built against
 [booking.com](https://www.booking.com) as a real-world, non-trivial target
