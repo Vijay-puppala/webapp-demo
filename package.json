@@ -1,0 +1,28 @@
+{
+  "name": "playwright-booking-framework",
+  "version": "1.0.0",
+  "description": "Beginner-to-advanced Playwright automation framework, built against booking.com as a real-world target site",
+  "scripts": {
+    "test": "playwright test",
+    "test:beginner": "playwright test tests/beginner",
+    "test:intermediate": "playwright test tests/intermediate",
+    "test:advanced": "playwright test tests/advanced",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:ui": "playwright test --ui",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.booking.com",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@axe-core/playwright": "^4.10.0",
+    "@types/node": "^22.5.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.4"
+  }
+}

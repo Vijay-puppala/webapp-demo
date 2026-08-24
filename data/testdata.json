@@ -1,0 +1,8 @@
+{
+  "searchScenarios": [
+    { "destination": "Paris", "adults": 2, "rooms": 1, "expectMinResults": 1 },
+    { "destination": "Kyoto", "adults": 1, "rooms": 1, "expectMinResults": 1 },
+    { "destination": "Reykjavik", "adults": 2, "rooms": 1, "expectMinResults": 0 }
+  ],
+  "invalidDestinations": ["", "   ", "asdkjhaskjdh123"]
+}
